@@ -83,6 +83,10 @@
     justify-content: center;
 }
 
+.text-body{
+    display: inline;
+}
+
 .text-banner-01{
     background-color: #F0F7FF;
     width: 1680px;
@@ -126,4 +130,16 @@
     border-radius: 5px;
     width: 240px;
     height: 55px;
+}
+
+.student-chat img{
+    width: 600px;
+    height: 318px;
+    padding: 16px 0px;
+
+}
+
+.text-banner-02{
+    display: flex;
+    justify-content: space-between;
 }
