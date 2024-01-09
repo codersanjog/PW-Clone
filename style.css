@@ -1,5 +1,5 @@
 * {
-    background-color: #ffff;
+    background-color: white;
 }
 
 .nav-container {
@@ -47,7 +47,7 @@
 
 .menu-login {
     border: none;
-    background-color: blue;
+    background-color: #5a4bda;
     border-radius: 5px;
     height: 50px;
     width: 150px;
@@ -57,71 +57,75 @@
     margin-left: 480px;
 }
 
+.menu-login:hover {
+    background-color: #3c2fb1;
+}
+
 .courses {
     text-align: center;
-    border: 1px solid blue;
+    border: 1px solid #5a4bda;
     border-radius: 5px;
     height: 20px;
     width: 150px;
     padding: 5px;
 }
 
-.all-courses{
+.all-courses {
     flex-direction: column;
     text-align: left;
     display: none;
 }
 
-.courses li:hover .all-courses{
+.courses li:hover .all-courses {
     display: block;
     position: absoulte;
 
 }
 
-.hero-banner{
-    display: flex;
-    justify-content: center;
-}
-
-.text-body{
+.text-body {
     display: inline;
+    background: transparent;
 }
 
-.text-banner-01{
+.text-banner-01 {
+    background: transparent;
     background-color: #F0F7FF;
     width: 1680px;
     height: 470px;
 }
 
-.text-banner-02{
-    background-color: #FFFF;
-    height: 470px;
+.text-banner-02 {
+    background: transparent;
+    height: 318px;
     width: 1152px;
     margin: 0 262px;
     padding: 60px 0;
 }
 
-.text-body h1{
+.text-body h1 {
+    background: transparent;
     color: #1B2124;
     font-family: sans-serif;
     font-size: 40px;
     margin: 0px 0px 6px;
 }
 
-.text-body span{
+.text-body span {
+    background: transparent;
     color: #5a4bda;
     font-size: 40px;
     font-family: sans-serif;
 }
 
-.text-body p{
+.text-body p {
+    background: transparent;
     color: #3d3d3d;
     font: 16px, "sans-serif";
     margin: 0px 0px 40px;
 
 }
 
-.text-body button{
+.text-body button {
     color: white;
     font: 17px, "sans-serif";
     background-color: #5a4bda;
@@ -132,14 +136,56 @@
     height: 55px;
 }
 
-.student-chat img{
+.student-chat img {
+    background: transparent;
     width: 600px;
     height: 318px;
     padding: 16px 0px;
 
 }
 
-.text-banner-02{
+.text-banner-02 {
     display: flex;
     justify-content: space-between;
+}
+
+.hero-banner img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.services-01{
+    background-color: white;
+    width: 1152px;
+    height: 162px;
+    padding: 24px 16px;
+    margin: -56.9px 240px 0;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.class-features img{
+    height: 50px;
+    width: auto;
+}
+
+.class-features {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.class-features h5{
+    font-size: 18px;
+}
+
+.class-features p{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
 }
